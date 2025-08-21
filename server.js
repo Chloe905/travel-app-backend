@@ -23,9 +23,9 @@ app.use(
 )
 
 // 路由
-app.use('/api/auth', authRoutes)
-app.use('/api/favorites', favoritesRoutes)
-app.use('/api/translate', translateRoutes)
-app.use('/api/phrases', phrasesRoutes)
+app.use('/auth', authRoutes)
+app.use('/favorites', favoritesRoutes)
+app.use('/translate', translateRoutes)
+app.use('/phrases', phrasesRoutes)
 
 module.exports = app
