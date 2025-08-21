@@ -16,6 +16,7 @@ app.use(
     origin: [
       'http://localhost:5173',
       'https://travel-app-frontend-navy.vercel.app',
+      'https://travel-app-frontend-sand.vercel.app',
     ],
     methods: ['GET', 'POST'],
     credentials: true,
